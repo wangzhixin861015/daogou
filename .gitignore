@@ -1,0 +1,28 @@
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+
+.idea
+.vscode
+.vs
+.hbuilderx
+mp-weixin/
+static/fonts/
+unpackage/dist/dev/
+unpackage/dist/build
+unpackage/dist/build/mp-weixin/project.config.json
+unpackage/dist/dev/mp-weixin/project.config.json
+unpackage/dist/
+
+
+# macOS
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Node.js
+node_modules/

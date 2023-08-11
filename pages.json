@@ -1,0 +1,157 @@
+{
+	"easycom": {
+			"autoscan": true,
+			"custom": {
+				// uni-ui 规则如下配置
+				"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+			}
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        
+		{
+		    "path" : "pages/login/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "zkong-h5",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/lanhu_shouye/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/lanhu_wode/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/lanhu_wodex2fyuyueshenqing/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/lanhu_xuanzeshichangampshijian/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		}
+,
+		{
+		    "path" : "pages/lanhu_xuanzedaogouyuan/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/lanhu_daogouxiangqing/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/lanhu_xuanzefuwuneirong/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black", //仅支持 black/white
+				"disableScroll": true,
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "zkong价签助手",
+		"navigationBarBackgroundColor": "#177AFD",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle":"custom"
+		// "scrollIndicator": "none",
+		// "app-plus":{
+		// 	"scrollIndicator":"none" //全局 在APP页面都不显示滚动条
+		// }
+	},
+	// 配置tabbar导航栏
+		"tabBar": {
+			"backgroundColor": "#FFFFFF",
+			"borderStyle": "white",
+			"selectedColor": "#28397C ",
+			"color": "#969799",
+			"iconfontSrc": "static/iconfont.ttf",
+			"list": [
+				{
+					"pagePath": "pages/lanhu_shouye/index",
+					"text": "首页",
+					"iconfont": {
+						"text": "\ue615",
+						"selectedText": "\ue615",
+						"selectedColor": "#28397C",
+						"color": "#CCCCCC",
+						"fontSize": "20px"
+					}
+				},{
+					"pagePath": "pages/lanhu_xuanzeshichangampshijian/index",
+					"text": "导购预约",
+					"iconPath": "static/tabbar/daogou_tabar_ico.png", //未选中时的图标
+					"selectedIconPath": "static/tabbar/daogou_tabar_selecte_ico.png" //选中后图标
+				},{
+					"pagePath": "pages/lanhu_wode/index",
+					"text": "我的",
+					"iconfont": {
+						"text": "\ue621",
+						"selectedText": "\ue621",
+						"selectedColor": "#28397C",
+						"color": "#CCCCCC",
+						"fontSize": "20px"
+					}
+				}
+			]
+		}
+	
+
+}
